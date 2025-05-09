@@ -36,6 +36,7 @@ public class LoginController {
         }
     }
 
+
     @GetMapping("/courses")
     public String showCourses(Model model) {
         String sql = "SELECT * FROM courses";
